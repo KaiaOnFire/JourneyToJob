@@ -1,6 +1,6 @@
 
 
 <?php 
-$sPath = realpath( __DIR__ . 'test.html');
+$sPath = realpath( __DIR__ . '/test.html');
 include_once $sPath;
 ?>
