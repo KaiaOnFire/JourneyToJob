@@ -5,7 +5,7 @@
 const resumeBtn = document.getElementById("resBtn");
 var resumeState = false;
 resumeBtn.addEventListener("click", function(){
-    imageOpen('../Images/OctResume.jpg', 'resumeAppear', 'resBtn')
+    imageOpen('/HTML-CSS-JavaScript-Project/Images/OctResume.jpg', 'resumeAppear', 'resBtn')
 });
 
 function hide(ElementId) {
