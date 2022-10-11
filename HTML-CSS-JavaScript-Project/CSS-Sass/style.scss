@@ -1,0 +1,46 @@
+@use 'base';
+
+.titlecard {
+    background-color: #008080;
+}
+
+#heading {
+    text-align: center;
+}
+
+#subheading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 75vh;
+}
+
+.tablink {
+    background-color: #555;
+    color: #F8F0E3;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  .tabcontent {
+    color: #F8F0E3;
+    display: none;
+
+    padding: 50px;
+    text-align: center;
+  }
+
+#interestingThings {background-color:#008080;}
+#lameThings {background-color: #696112;}
