@@ -1,1 +1,1 @@
-<?php include_once("JourneyToJob\HTML-CSS-JavaScript-Project\HTML\mainPage.html"); ?>
+<?php include_once("HTML-CSS-JavaScript-Project\HTML\mainPage.html"); ?>
