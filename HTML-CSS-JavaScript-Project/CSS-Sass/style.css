@@ -23,6 +23,8 @@ body {
   display: inline-block;
   border: 1px solid black;
   word-wrap: break-word;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 img {
