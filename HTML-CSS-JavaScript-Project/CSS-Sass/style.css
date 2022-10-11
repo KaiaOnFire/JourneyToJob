@@ -21,10 +21,9 @@ body {
 
 .contact li {
   display: inline-block;
-  border: 1px solid black;
   word-wrap: break-word;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 39px;
 }
 
 img {
