@@ -51,7 +51,7 @@ img {
   display: none;
   padding: 50px;
   text-align: center;
-  display: block;
+  border: 1px solid black;
 }
 
 #interestingThings {
