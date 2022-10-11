@@ -51,7 +51,10 @@ img {
   display: none;
   padding: 50px;
   text-align: center;
-  border: 1px solid black;
+}
+
+#specificblock {
+  border: 1px solid red;
 }
 
 #interestingThings {
