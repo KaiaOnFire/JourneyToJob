@@ -11,14 +11,16 @@ body {
   text-align: center;
 }
 
-ul #smallHeading {
-  display: block;
+.contact {
+  text-align: center;
 }
 
-#smallHeading li {
+.contact ul {
   display: inline-block;
-  word-wrap: break-word;
-  margin: 50px;
+}
+
+.contact li {
+  border: 1px solid black;
 }
 
 img {
