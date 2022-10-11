@@ -1,9 +1,13 @@
+function hide(ElementId) {
+    var thing = document.getElementById(ElementId);
+    thing.style.display = "none";
+}
+
 function imageDisplay(src, givenId, location, buttonId) {
     var img = document.createElement("img");
     img.src = src;
     img.id = givenId;
-    alert(buttonId);
-    //getElementById(buttonId).style.visibility="hidden";
+    hide(buttonId);
 
     document.getElementById(location).appendChild(img);
 }
