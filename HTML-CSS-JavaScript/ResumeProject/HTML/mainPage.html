@@ -9,7 +9,7 @@
         <script type="text/javascript" src="../js/scriptThings.js"></script>
 
         <title>Kaia's Front Page</title>
-        <link rel="shortcut icon" type="image/jpg" href="../Images/DANIEL_FABLE.jpg"/>
+        <link rel="shortcut icon" type="image/jpg" href="../Images/Fable.jpg"/>
     </head>
 
     <body>
@@ -30,7 +30,7 @@
         </div>
         
         <!-- REAL BODY -->
-        <input type="button" onclick="hello()" value="HELLO">
+        
 
         <h3>Interesting Things</h3>
         <p title="Resume in Website (COOL)">
@@ -40,9 +40,11 @@
         </p>
 
         <h3>Lame Things</h3>
-        <p title="Old [DEADNAME]'s Resume (LAME)">
-            <a href="resume.html"> Current Resume (<em>LAME</em>) </a>
-        </p>
+            <p id="resumeAppear" title="Old [DEADNAME]'s Resume (LAME)"></p>
+            <button id="resumeButton" type="button"
+                onclick="imageDisplay('../Images/OctResume.jpg', 'ResumeID', 'resumeAppear', this.id)">
+                Daniel's Resume <sup>I killed him</sup>
+            </button>
 
     </body>
 </html>
