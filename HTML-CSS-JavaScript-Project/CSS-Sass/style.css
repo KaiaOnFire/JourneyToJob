@@ -20,6 +20,7 @@ body {
 }
 
 .contact li {
+  display: inline;
   border: 1px solid black;
 }
 
