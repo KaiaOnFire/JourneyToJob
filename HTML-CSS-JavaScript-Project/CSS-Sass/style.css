@@ -11,6 +11,10 @@ body {
   text-align: center;
 }
 
+smallHeading li {
+  display: inline;
+}
+
 img {
   height: 75vh;
 }
