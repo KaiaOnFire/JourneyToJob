@@ -8,8 +8,14 @@
     text-align: center;
 }
 
+ul #smallHeading{
+  display: block;
+}
+
 #smallHeading li{
     display:inline-block;
+    word-wrap: break-word;
+    margin: 50px;
 }
 
 img {
