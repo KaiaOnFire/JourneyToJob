@@ -9,7 +9,7 @@ var resumeState = false;
 resumeBtn.addEventListener("click", function(){
     imageOpen('/HTML-CSS-JavaScript-Project/Images/OctResume.jpg', 'resumeAppear', 'resBtn')
 });
-document.getElementById("defaultOpen").click(); 
+
 
 function hide(ElementId) {
     var thing = document.getElementById(ElementId);
@@ -71,5 +71,5 @@ function openBigTab(tabName, elmnt, color) {
     document.body.backgroundColor = color;
 }
   
-
+document.getElementById("defaultOpen").click(); 
   
