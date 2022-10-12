@@ -3,13 +3,10 @@
 // I just forgot about it to be honest.
 
 const resumeBtn = document.getElementById("resBtn");
-const UserModel = require("/HTML-CSS-JavaScript-Project/models/user.js")
 var resumeState = false;
-
 resumeBtn.addEventListener("click", function(){
     imageOpen('/HTML-CSS-JavaScript-Project/Images/OctResume.jpg', 'resumeAppear', 'resBtn')
 });
-document.getElementById("defaultOpen").click(); 
 
 function hide(ElementId) {
     var thing = document.getElementById(ElementId);
@@ -69,7 +66,7 @@ function openBigTab(tabName, elmnt, color) {
     // Add the specific color to the button used to open the tab content
     elmnt.style.backgroundColor = color;
     document.body.backgroundColor = color;
-}
+  }
   
-
-  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click(); 
